@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /*justify-content: space-between;*/
+    background-color: #cbdbc5;
+}
+
+.header {
+    display: flex;
+    margin: none;
+    justify-content: center;
+}
+.header img{
+    width: 400px;
+}
+
+.left-background img{
+    display: flex;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.right-background img{
+    display: flex;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    margin-right: 30px;
+    align-self: center;
+}
