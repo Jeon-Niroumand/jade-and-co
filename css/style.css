@@ -9,7 +9,7 @@ body{
     flex-direction: row-reverse;
 }
 
-img.logo{
+.logo{
     width: 400px;
     margin: auto;
     border: 5px solid white;
@@ -17,25 +17,21 @@ img.logo{
     margin-block: 15px;
 }
 
-img.hamburger{
-    display:flex;
+#hamburger{
     width: 75px;
     height: 75px;
     justify-self: flex-end;
-    padding-right: 10px;
     margin-block: 10px;
     position: fixed;
 }
 
-.header .menu{
-    /*display: flex;*/
-    flex-direction: column;
+.menu{
     list-style: none;
     background-color: #e8e6e6;
     border: 5px solid white;
     gap: 6px;
     width: 170px;
-    font-family: 'testfont';
+    font-family: 'chloe';
     font-size: xx-large;
     text-align: left;
     align-self: flex-end;
@@ -44,13 +40,17 @@ img.hamburger{
     padding-block: 10px;
 }
 
+.showMenu{
+    transform: translateY(0);
+}
+
 a{
     text-decoration: none;
-    color: #0d2a1e;
+    color: #0e2b1f;
 }
 
 @font-face{
-    font-family: testfont;
+    font-family: chloe;
     src: url("../fonts/Chloe-Regular.otf") format("opentype");
 }
 
