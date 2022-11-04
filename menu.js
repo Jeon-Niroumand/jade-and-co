@@ -1,18 +1,16 @@
-const menu = document.querySelector(".menu");
-const menuItems = document.querySelectorAll(".menuItem");
-const hamburger = document.getElementById("hamburger");
-const logo = document.getElementById("logo");
-
-
-hamburger.addEventListener("click", alert("clicky"));
-
-/*function toggleMenu() {
-    if (menu.classList.contains("shwoMenu")) {
-        menu.classList.remove("showMenu");
-    }
-    else {
-        menu.classList.add("showMenu");
-    }
+function clicked() {
+    console.log("clicked");
 }
 
-hamburger.addEventListener("click", toggleMenu);*/
+function toggle() {
+   menu = document.getElementById("menu")
+   if(menu.style.display == 'block') {
+    menu.style.display = 'none';
+    }
+    else {
+        menu.style.display = 'block';
+    }
+}
+/*const hamburger = document.querySelector(`#hamburger`);
+
+hamburger.addEventListener("click", console.log("you clicked"));*/

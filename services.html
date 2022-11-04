@@ -5,17 +5,17 @@
         <title>HOME | Jade & Co</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./css/style.css">
+        <script src="menu.js" defer></script>
     </head>
 
     <div class="header">
         <img class="logo" src="./img/logo.png" alt="Jade & Co Logo">
-        <img class="hamburger" src="./img/more.png" alt="more">
-        <ul class="menu">
+        <input type="image" class="hamburger" src="./img/more.png" alt="more" onclick="toggle()"> <!-- toggles navbar in menu.js-->
+        <ul id="menu">
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./about.html">ABOUT</a></li>
             <li><a href="./services.html">SERVICES</a></li>
             <li><a href="./contact.html">CONTACT</a></li>
         </ul>
-    </div>
     
 </html>

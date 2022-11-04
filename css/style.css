@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    /*background-color: #f0dede;*/
     background-color: #cbdbc5;
 }
 
@@ -13,7 +14,7 @@ body{
     width: 400px;
     margin: auto;
     border: 5px solid white;
-    background-color: #e8e6e6;
+    background-color: #f0dede;
     margin-block: 15px;
 }
 
@@ -28,7 +29,7 @@ input.hamburger{
 ul#menu{
     display: none;
     list-style: none;
-    background-color: #e8e6e6;
+    background-color: #f0dede;
     border: 5px solid white;
     width: 170px;
     font-family: 'chloe';
