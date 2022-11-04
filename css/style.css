@@ -17,7 +17,7 @@ body{
     margin-block: 15px;
 }
 
-#hamburger{
+input#hamburger{
     width: 75px;
     height: 75px;
     justify-self: flex-end;
