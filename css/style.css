@@ -13,8 +13,6 @@ body{
 .logo{
     width: 400px;
     margin: auto;
-    border: 5px solid white;
-    background-color: #f0dede;
     margin-block: 15px;
 }
 
@@ -29,7 +27,7 @@ input.hamburger{
 ul#menu{
     display: none;
     list-style: none;
-    background-color: #f0dede;
+    background-color: #eeeeee;
     border: 5px solid white;
     width: 170px;
     font-family: 'chloe';
@@ -44,21 +42,20 @@ a{
     color: #0e2b1f;
 }
 
-.img1{
+.imgL{
     width: 800px;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     margin-right: auto;
-    margin-bottom: 15px;
 }
 
-.img2{
+.imgR{
     display: flex;
     width: 800px;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     margin-left: auto;
-    margin-top: 15px;
+    margin-block: 20px;
 }
 
 .footer{
