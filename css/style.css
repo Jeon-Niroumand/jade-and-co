@@ -16,7 +16,7 @@ body{
     margin-block: 15px;
 }
 
-input.hamburger{
+#hamburger{
     width: 75px;
     height: 75px;
     justify-self: flex-end;
@@ -27,8 +27,8 @@ input.hamburger{
 ul#menu{
     display: none;
     list-style: none;
-    background-color: #eeeeee;
-    border: 5px solid white;
+    /*background-color: #eeeeee;
+    border: 5px solid white;*/
     width: 170px;
     font-family: 'chloe';
     font-size: xx-large;
@@ -89,6 +89,26 @@ h1 #services{
     color: #121212;
     align-self: center;
     margin: 0px;
+}
+
+iframe{
+    margin: auto;
+}
+.container{
+    margin: auto;
+}
+.contact{
+    font-family: 'chloe';
+    font-size: 20px;
+    color: #0e2b1f;
+    padding-bottom: 20px;
+}
+
+h1, h2{
+    font-family: 'chloe';
+    font-size: 25px;
+    color: #0e2b1f;
+    margin-block: 0;
 }
 
 @font-face{

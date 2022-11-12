@@ -7,16 +7,26 @@
         <link rel="stylesheet" href="./css/style.css">
         <script src="menu.js" defer></script>
     </head>
+    
+    <body>
+        <div class="header">
+            <img class="logo" src="./img/Jade_co_type_green.svg" alt="Jade & Co Logo">
+            <input type="image" id="hamburger" src="./img/more.png" alt="more" onclick="toggle()"> <!-- toggles navbar in menu.js-->
+            <ul id="menu">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./services.html">SERVICES</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
 
-    <div class="header">
-        <img class="logo" src="./img/Jade_co_type_green.svg" alt="Jade & Co Logo">
-        <input type="image" class="hamburger" src="./img/more.png" alt="more" onclick="toggle()"> <!-- toggles navbar in menu.js-->
-        <ul id="menu">
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="./about.html">ABOUT</a></li>
-            <li><a href="./services.html">SERVICES</a></li>
-            <li><a href="./contact.html">CONTACT</a></li>
-        </ul>
-    </div>
+        <div class="container">
+            <h1>Address</h1>
+            <div class="contact">2324 Grand Canal Blvd Ste 12 Stockton, CA 95207</div>
+            <h2>Hours</h2>
+            <div class="contact">9am to 8pm, 7 days a week</div>
+            <iframe src="https://maps.google.com/maps?q=2324%20Grand%20Canal%20Blvd%20Ste%2012%20Stockton,%20CA%2095207&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe><a href="https://blooket.app/host" style="display:none">blooket host</a><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><style>.gmap_canvas{overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></div> 
+        </div>  
+    </body>
     
 </html>
