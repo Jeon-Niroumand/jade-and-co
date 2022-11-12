@@ -24,6 +24,15 @@ body{
     position: fixed;
 }
 
+#done{
+    display: none;
+    width: 66px;
+    height: 66px;
+    justify-self: flex-end;
+    margin-block: 10px;
+    position: fixed;
+}
+
 ul#menu{
     display: none;
     list-style: none;
