@@ -39,7 +39,8 @@ ul#menu{
     /*background-color: #eeeeee;
     border: 5px solid white;*/
     width: 170px;
-    font-family: 'chloe';
+    /*font-family: 'chloe';*/
+    font-family: 'Poppins', sans-serif;
     font-size: xx-large;
     align-self: flex-end;
     position: fixed;
@@ -87,13 +88,15 @@ h1{
 }
 
 #services h1{
-    font-family: 'marzo';
+    /*font-family: 'marzo';*/
+    font-family: 'Poppins', sans-serif;
     font-size: 180px;
     align-self: center;
 }
 
 #services{
-    font-family: 'marzo';
+    /*font-family: 'marzo';*/
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     align-self: center;
     margin: 0px;
@@ -106,14 +109,16 @@ iframe{
     margin: auto;
 }
 .contact{
-    font-family: 'chloe';
+    /*font-family: 'chloe';*/
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: #0e2b1f;
     padding-bottom: 20px;
 }
 
 h1, h2{
-    font-family: 'chloe';
+    /*font-family: 'chloe';*/
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: #0e2b1f;
     margin-block: 0;
