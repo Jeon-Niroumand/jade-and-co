@@ -5,21 +5,21 @@ body{
 }
 
 .header {
-    display: flex;
-    flex-direction: row-reverse;
+    display: flex;    
+    justify-content: space-between;
 }
 
 .logo{
     width: 400px;
     margin: auto;
-    margin-block: 15px;
 }
 
 #hamburger{
     width: 75px;
     height: 75px;
-    justify-self: flex-end;
-    margin-block: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
     position: fixed;
 }
 
@@ -27,24 +27,31 @@ body{
     display: none;
     width: 66px;
     height: 66px;
-    justify-self: flex-end;
-    margin-block: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
     position: fixed;
 }
 
 #menu{
     display: none;
     list-style: none;
-    /*background-color: #eeeeee;
-    border: 5px solid white;*/
     width: 170px;
     height: 200px;
-    /*font-family: 'chloe';*/
     font-family: 'Poppins', sans-serif;
     font-size: xx-large;
     align-self: flex-end;
+    left: 0;
+    right: 0;
     position: fixed;
     padding-block: 10px;
+    margin-left: auto;
+}
+
+.message img{
+    width: 75px;
+    height: 75px;    
+    position: fixed;
 }
 
 a{
@@ -123,6 +130,12 @@ h1, h2{
     font-size: 25px;
     color: #0e2b1f;
     margin-block: 0;
+}
+
+.copyright{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #0e2b1f;
 }
 
 @font-face{
