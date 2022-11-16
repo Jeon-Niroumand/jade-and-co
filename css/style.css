@@ -110,6 +110,24 @@ h1{
     margin: 0px;
 }
 
+#artists{
+    font-family: 'Chloe-Regular';
+    font-size: 75px;
+    align-self: center;
+    margin: 0px;
+}
+.headshots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.headshots  img{
+    flex: 0 0 30.333333%;
+    padding-block: 33px;
+    width: 200px;
+}
+
 iframe{
     margin: auto;
 }
