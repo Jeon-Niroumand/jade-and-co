@@ -12,7 +12,7 @@ body{
 }
 
 .logo{
-    width: 400px;
+    width: 600px;
     margin: auto;
 }
 
@@ -39,7 +39,7 @@ body{
     display: none;
     list-style: none;
     width: 170px;
-    height: 200px;
+    height: 330px;
     font-family: 'Poppins', sans-serif;
     font-size: xx-large;
     align-self: flex-end;
@@ -89,7 +89,7 @@ a{
 }
 
 .socials img{
-    width: 50px;
+    width: 60px;
 }
 
 h1{
@@ -152,9 +152,8 @@ h1, h2{
 }
 
 .copyright{
-    font-family: 'Poppins', sans-serif;
+    font-size: 15pt;
     text-align: center;
-    color: #0e2b1f;
 }
 
 @font-face{
