@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #0e2b1f;
     background-color: #cbdbc5;
+    margin: auto;
 }
 
 .header {
@@ -92,9 +93,7 @@ a{
     width: 60px;
 }
 
-h1{
-    margin: 0px;
-}
+
 
 #services h1{
     /*font-family: 'marzo';*/
