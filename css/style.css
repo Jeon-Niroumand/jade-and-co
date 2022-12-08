@@ -1,7 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins';
+    font-size: 24pt;
     color: #0e2b1f;
     background-color: #cbdbc5;
     margin: auto;
@@ -41,7 +42,7 @@ body{
     list-style: none;
     width: 170px;
     height: 330px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins';
     font-size: xx-large;
     align-self: flex-end;
     left: 0;
@@ -103,7 +104,7 @@ a{
 
 .services{
     /*font-family: 'marzo';*/
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins';
     font-size: 40pt;
     align-self: center;
 }
@@ -134,7 +135,7 @@ iframe{
 }
 .contact{
     /*font-family: 'chloe';*/
-    font-size: 20px;
+    font-size: 22pt;
     padding-bottom: 20px;
 }
 
@@ -156,4 +157,9 @@ h1, h2{
 @font-face{
     font-family: marzo;
     src: url("../fonts/Marzo-W00-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: poppins;
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
 }
