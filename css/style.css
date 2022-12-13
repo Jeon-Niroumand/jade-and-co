@@ -110,7 +110,7 @@ a{
 }
 
 #artists{
-    font-family: 'Chloe-Regular';
+    font-family: 'poppins';
     font-size: 75px;
     align-self: center;
     margin: 0px;
@@ -119,12 +119,19 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto;
+}
+.headshots a{
+    display: flex;
+    flex: 0 0 30.333333%;
+    padding-block: 25px;
+    margin: auto;
 }
 
 .headshots  img{
-    flex: 0 0 30.333333%;
-    padding-block: 25px;
-    width: 119px;
+    width: 480px;
+    height: 675px;
+    padding-inline: 5px;
 }
 
 iframe{
