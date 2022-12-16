@@ -93,8 +93,6 @@ a{
     width: 60px;
 }
 
-
-
 .services h1{
     /*font-family: 'marzo';*/
     font-size: 90pt;
@@ -115,31 +113,46 @@ a{
     align-self: center;
     margin: 0px;
 }
+
 .headshots{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
 }
+
 .headshots a{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35pt;
     flex: 0 0 30.333333%;
-    padding-block: 25px;
     margin: auto;
 }
 
 .headshots  img{
-    width: 480px;
-    height: 675px;
-    padding-inline: 5px;
+    border-radius: 15%;
+    width: 460px;
+    height: 660px;
+}
+
+.container img.phone{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 iframe{
     margin: auto;
 }
+
 .container{
     margin: auto;
 }
+
 .contact{
     /*font-family: 'chloe';*/
     font-size: 22pt;
