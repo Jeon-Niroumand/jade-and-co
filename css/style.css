@@ -107,35 +107,42 @@ a{
     align-self: center;
 }
 
-.headshots{
+.headshots {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: auto;
-}
+    margin: auto;}
 
 .headshots a{
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 35pt;
-    flex: 0 0 30.333333%;
     margin: auto;
 }
 
 .headshots  img{
+    display: flex;
     border-radius: 15%;
     width: 460px;
     height: 660px;
 }
 
-.container img.phone{
+a img.phone, a img.message{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 60px;
     height: 60px;
-    margin: auto;
     margin-bottom: 25px;
+
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 10px;
 }
 
 iframe{
@@ -143,6 +150,9 @@ iframe{
 }
 
 .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin: auto;
 }
 
