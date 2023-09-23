@@ -2,10 +2,10 @@
 <html lang = en>
     
     <head>
-        <title>ARTISTS | Jade & Co</title>
+        <title>SHOP | Jade & Co</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=.4">
-        <meta name="description" content="Book an appointment with one of Jade and Co's passionate stylists today!">
+        <meta name="description" content="Buy from our selection of top brands like Davines">
         <link rel="stylesheet" href="./css/style.css">
         <script src="menu.js" defer></script>
     </head>
@@ -25,9 +25,9 @@
             </ul>
         </div>
 
-        <h1 id="artists">Artists</h1>
+        <h1 id="artists">Shop</h1>
 
-        <div id='product-component-1695443757397'></div>
+        <div id='collection-component-1695446472847'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -54,23 +54,32 @@
       storefrontAccessToken: '9e026c74de8fa82f513e44039650f28e',
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: '9009139024177',
-        node: document.getElementById('product-component-1695443757397'),
+      ui.createComponent('collection', {
+        id: '464280027441',
+        node: document.getElementById('collection-component-1695446472847'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
         },
-        "text-align": "left"
-      },
-      "title": {
-        "font-size": "26px"
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
       },
       "button": {
         "font-family": "Strait, sans-serif",
@@ -85,36 +94,20 @@
         ":focus": {
           "background-color": "#6a7a6b"
         },
-        "border-radius": "15px",
-        "padding-left": "23px",
-        "padding-right": "23px"
+        "border-radius": "15px"
       },
       "quantityInput": {
         "font-size": "17px",
         "padding-top": "16.5px",
         "padding-bottom": "16.5px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15.299999999999999px"
-      },
-      "unitPrice": {
-        "font-size": "15.299999999999999px"
       }
     },
-    "layout": "horizontal",
+    "buttonDestination": "modal",
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true,
-      "description": true
+      "options": false
     },
-    "width": "100%",
     "text": {
-      "button": "Add to cart"
+      "button": "View product"
     },
     "googleFonts": [
       "Strait"
@@ -124,7 +117,7 @@
     "styles": {
       "products": {
         "@media (min-width: 601px)": {
-          "margin-left": "-20px"
+          "margin-left": "-30px"
         }
       }
     }
@@ -157,38 +150,12 @@
         ":focus": {
           "background-color": "#6a7a6b"
         },
-        "border-radius": "15px",
-        "padding-left": "23px",
-        "padding-right": "23px"
+        "border-radius": "15px"
       },
       "quantityInput": {
         "font-size": "17px",
         "padding-top": "16.5px",
         "padding-bottom": "16.5px"
-      },
-      "title": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "bold",
-        "font-size": "26px",
-        "color": "#4c4c4c"
-      },
-      "price": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "18px",
-        "color": "#4c4c4c"
-      },
-      "compareAt": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "15.299999999999999px",
-        "color": "#4c4c4c"
-      },
-      "unitPrice": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "15.299999999999999px",
-        "color": "#4c4c4c"
       }
     },
     "googleFonts": [
@@ -196,6 +163,13 @@
     ],
     "text": {
       "button": "Add to cart"
+    }
+  },
+  "modal": {
+    "styles": {
+      "modal": {
+        "background-color": "#f5f5f7"
+      }
     }
   },
   "option": {},
