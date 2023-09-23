@@ -15,7 +15,7 @@
             <h1 class="logo"><img src="./img/Jade_co_type_green.svg" alt="Jade & Co"></h1>
             <input type="image" id="hamburger" src="./img/more.png" alt="more" onclick="toggle()"> <!-- toggles navbar in menu.js-->
             <input type="image" id="done" src="./img/close.png" alt="close" onclick="toggle()"> <!-- closes navbar in menu.js-->
-            <ul id="menu">
+             <ul id="menu">
                 <li><a href="./index.html">HOME</a></li>
                 <li><a href="./store.html">SHOP</a></li>
                 <li><a href="./about.html">ABOUT</a></li>
@@ -27,232 +27,78 @@
 
         <h1 id="artists">Artists</h1>
 
-        <div id='product-component-1695443757397'></div>
-<script type="text/javascript">
-/*<![CDATA[*/
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: '465b7f-2.myshopify.com',
-      storefrontAccessToken: '9e026c74de8fa82f513e44039650f28e',
-    });
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: '9009139024177',
-        node: document.getElementById('product-component-1695443757397'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        },
-        "text-align": "left"
-      },
-      "title": {
-        "font-size": "26px"
-      },
-      "button": {
-        "font-family": "Strait, sans-serif",
-        "font-weight": "bold",
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px",
-        ":hover": {
-          "background-color": "#6a7a6b"
-        },
-        "background-color": "#768877",
-        ":focus": {
-          "background-color": "#6a7a6b"
-        },
-        "border-radius": "15px",
-        "padding-left": "23px",
-        "padding-right": "23px"
-      },
-      "quantityInput": {
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15.299999999999999px"
-      },
-      "unitPrice": {
-        "font-size": "15.299999999999999px"
-      }
-    },
-    "layout": "horizontal",
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true,
-      "description": true
-    },
-    "width": "100%",
-    "text": {
-      "button": "Add to cart"
-    },
-    "googleFonts": [
-      "Strait"
-    ]
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "font-family": "Strait, sans-serif",
-        "font-weight": "bold",
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px",
-        ":hover": {
-          "background-color": "#6a7a6b"
-        },
-        "background-color": "#768877",
-        ":focus": {
-          "background-color": "#6a7a6b"
-        },
-        "border-radius": "15px",
-        "padding-left": "23px",
-        "padding-right": "23px"
-      },
-      "quantityInput": {
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px"
-      },
-      "title": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "bold",
-        "font-size": "26px",
-        "color": "#4c4c4c"
-      },
-      "price": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "18px",
-        "color": "#4c4c4c"
-      },
-      "compareAt": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "15.299999999999999px",
-        "color": "#4c4c4c"
-      },
-      "unitPrice": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "15.299999999999999px",
-        "color": "#4c4c4c"
-      }
-    },
-    "googleFonts": [
-      "Strait"
-    ],
-    "text": {
-      "button": "Add to cart"
-    }
-  },
-  "option": {},
-  "cart": {
-    "styles": {
-      "button": {
-        "font-family": "Strait, sans-serif",
-        "font-weight": "bold",
-        "font-size": "17px",
-        "padding-top": "16.5px",
-        "padding-bottom": "16.5px",
-        ":hover": {
-          "background-color": "#6a7a6b"
-        },
-        "background-color": "#768877",
-        ":focus": {
-          "background-color": "#6a7a6b"
-        },
-        "border-radius": "15px"
-      }
-    },
-    "text": {
-      "total": "Subtotal",
-      "button": "Checkout"
-    },
-    "googleFonts": [
-      "Strait"
-    ]
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Strait, sans-serif",
-        "font-weight": "bold",
-        "background-color": "#768877",
-        ":hover": {
-          "background-color": "#6a7a6b"
-        },
-        ":focus": {
-          "background-color": "#6a7a6b"
-        }
-      },
-      "count": {
-        "font-size": "17px"
-      }
-    },
-    "googleFonts": [
-      "Strait"
-    ]
-  }
-},
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
+        <div class="headshots">
+            <div class="container">            
+                <a><img src="./img/headshots/IMG-5291.webp" alt="Jena King">Jena King</a>
+                <div class ="icons">
+                    <a href="sms:+12093730105"><img class="message" src="./img/icons/sms.png" alt="Click to text Jena"></a>
+                    <a href="tel:+12093730105"><img class="phone" src="./img/icons/phone.png" alt="Click to call Jena"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a href="https://www.vagaro.com/raquelschair"><img src="./img/headshots/IMG-2658.webp" alt="Raquel Negrete">Raquel Negrete</a>      
+                <div class ="icons">
+                    <a href="sms:+12092440604"><img class="message" src="./img/icons/sms.png" alt="Click to text Raquel"></a>
+                    <a href="tel:+12092440604"><img class="phone" src="./img/icons/phone.png" alt="Click to call Raquel"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a href="https://www.vagaro.com/haircraftbykiara"><img src="./img/headshots/IMG-5281.webp" alt="Kiara Nowlin">Kiara Nowlin</a>       
+                <div class ="icons">
+                    <a href="sms:+12096784409"><img class="message" src="./img/icons/sms.png" alt="Click to text Kiara"></a>
+                    <a href="tel:+12096784409"><img class="phone" src="./img/icons/phone.png" alt="Click to call Kiara"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a href="https://www.vagaro.com/karlasanchezhair"><img src="./img/headshots/IMG-5292.webp" alt="Karla Sanchez">Karla Sanchez</a>    
+                <div class ="icons">
+                    <a href="sms:+12092927308"><img class="message" src="./img/icons/sms.png" alt="Click to text Karla"></a>
+                    <a href="tel:+12092927308"><img class="phone" src="./img/icons/phone.png" alt="Click to call Karla"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a href="https://www.vagaro.com/styledbymarissa-"><img src="./img/headshots/IMG-6042.webp" alt="Marissa Rigmaiden">Marissa Rigmaiden</a>
+                <div class ="icons">
+                    <a href="sms:+15106922946"><img class="message" src="./img/icons/sms.png" alt="Click to text Marissa"></a>
+                    <a href="tel:+15106922946"><img class="phone" src="./img/icons/phone.png" alt="Click to call Marissa"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a><img src="./img/headshots/IMG-6044.webp" alt="Janis Sanchez">Janis Sanchez</a>
+                <div class ="icons">
+                    <a href="sms:+12099227943"><img class="message" src="./img/icons/sms.png" alt="Click to text Janis"></a>
+                    <a href="tel:+12099227943"><img class="phone" src="./img/icons/phone.png" alt="Click to call Janis"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a><img src="./img/headshots/IMG-5287.webp" alt="Jay Avila">Jay Avila</a>
+                <div class ="icons">
+                    <a href="sms:+12099526226"><img class="message" src="./img/icons/sms.png" alt="Click to text Jay"></a>
+                    <a href="tel:+12099526226"><img class="phone" src="./img/icons/phone.png" alt="Click to call Jay"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a><img src="./img/headshots/Facetune-19-04-2022-23-28-11.webp" alt="Emily Fuller">Emily Fuller</a>
+                <div class ="icons">
+                    <a href="sms:+12096761316"><img class="message" src="./img/icons/sms.png" alt="Click to text Emily"></a>
+                    <a href="tel:+12096761316"><img class="phone" src="./img/icons/phone.png" alt="Click to call Emily"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a><img src="./img/headshots/IMG-5279.webp" alt="Alex Suliven">Alex Suliven</a>
+                <div class ="icons">
+                    <a href="sms:+12098510159"><img class="message" src="./img/icons/sms.png" alt="Click to text Alex"></a>
+                    <a href="tel:+12098510159"><img class="phone" src="./img/icons/phone.png" alt="Click to call Alex"></a>
+                </div>
+            </div>
+            <div class="container">
+                <a><img src="./img/headshots/IMG-5974.webp" alt="Sandra Nava">Sandra Nava</a>
+                <div class ="icons">
+                    <a href="sms:+12098989622"><img class="message" src="./img/icons/sms.png" alt="Click to text Sandra"></a>
+                    <a href="tel:+12098989622"><img class="phone" src="./img/icons/phone.png" alt="Click to call Sandra"></a>
+                </div>
+            </div>
+        </div>
     
         <div class="footer">
             <!-----------------------PNG FILES--------------------------------------

@@ -92,15 +92,14 @@ a{
     width: 60px;
 }
 
-.services h1, #artists{
-    /*font-family: 'marzo';*/
+.services, h1, #artists{
+    color: #0e2b1f;
     font-size: 90pt;
     font-weight: 500;
     align-self: center;
 }
 
 .services{
-    /*font-family: 'marzo';*/
     font-family: 'poppins';
     font-size: 40pt;
     align-self: center;
