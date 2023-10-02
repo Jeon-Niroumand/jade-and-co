@@ -10,6 +10,6 @@ function toggle() {
     else {
         menu.style.display = 'block';
         hamburger.style.display = 'none';
-        done.style.display = 'block'
+        done.style.display = 'block';
     }
 }

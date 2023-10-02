@@ -40,7 +40,7 @@ body{
     display: none;
     list-style: none;
     width: 170px;
-    height: 330px;
+    height: 270px;
     font-family: 'poppins';
     font-size: xx-large;
     align-self: flex-end;
@@ -76,6 +76,15 @@ a{
     margin-left: auto;
     margin-block: 20px;
 }
+
+/*video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }*/
 
 .footer{
     color: #0e2b1f;
