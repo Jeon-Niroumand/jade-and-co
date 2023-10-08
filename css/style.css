@@ -18,22 +18,28 @@ body{
 }
 
 #hamburger{
+    display: block; top: 10px;
     width: 75px;
     height: 75px;
     left: 0;
     right: 0;
     margin-left: auto;
+    margin-right: 10px;
     position: fixed;
+    z-index: 100;
 }
 
 #done{
+    display: block; top: 10px;
     display: none;
-    width: 66px;
-    height: 66px;
+    width: 64px;
+    height: 64px;
     left: 0;
     right: 0;
     margin-left: auto;
+    margin-right: 13px;
     position: fixed;
+    z-index: 100;
 }
 
 #menu{
@@ -46,9 +52,17 @@ body{
     align-self: flex-end;
     left: 0;
     right: 0;
+    top: 45px;
     position: fixed;
-    padding-block: 10px;
+    z-index: 100;
     margin-left: auto;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+#menu a:hover{
+    color: #78b657;
 }
 
 /*.message img{
@@ -60,21 +74,6 @@ body{
 a{
     text-decoration: none;
     color: #0e2b1f;
-}
-
-.imgL{
-    width: 800px;
-    background-color: white;
-    padding: 10px;
-}
-
-.imgR{
-    display: flex;
-    width: 800px;
-    background-color: white;
-    padding: 10px;
-    margin-left: auto;
-    margin-block: 20px;
 }
 
 /*video{
