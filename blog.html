@@ -2,49 +2,19 @@
 <html lang = en>
     
     <head>
-        <title>HOME | Jade & Co</title>
+        <title>TEMPLATE | Jade & Co</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=.4">
-        <meta name="description" content="Hair. Stockton's best stylists. Jade and Co is Stockton's top salon. Book an appointment and visit us today. Color, balayage, haircuts, blow outs, hair extensions, brows, bridal makeup, bridal hair">
+        <meta name="description" content="jadeandco template description">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="icon" href="./img/Jade_co_type_green.svg">
         <script src="menu.js" defer></script>
-        <!--<script>
-            video = document.getElementsByTagName("video")
-            document.addEventListener(
-                "keydown",
-                (e) => {
-                    if (e.key === "Enter") {
-                        toggleFullScreen();
-                        video.style.display = 'none';
-                    }
-                },
-                false,
-            );
-
-            function toggleFullScreen() {
-                if (!document.fullscreenElement) {
-                    document.documentElement.requestFullscreen();
-                } else if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                }
-            }
-        </script>-->
+        <script src="blog.js" defer></script>
     </head>
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11420511454"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'AW-11420511454');
-    </script>
-    
     <body>
         <div class="header">
-            <h1><img class="logo" src="./img/Jade_co_type_green.svg" alt="jade and co"></h1>
+            <h1 class="logo"><img src="./img/Jade_co_type_green.svg" alt="Jade & Co"></h1>
             <input type="image" id="hamburger" src="./img/more.png" alt="more" onclick="toggle()"> <!-- toggles navbar in menu.js-->
             <input type="image" id="done" src="./img/close.png" alt="close" onclick="toggle()"> <!-- closes navbar in menu.js-->
             <nav>
@@ -59,15 +29,15 @@
             </nav>
         </div>
 
-    <video src="./mov/Jade&Co.mov" alt="Video of Jade & Co chairs, natural lighting, flora" preload autoplay muted loop playsinline controls poster="" >Sorry, your browser does not support HTML5 video.</video>
+        <div id="blog"></div><br>
 
         <div class="footer">
-        <!-----------------------PNG FILES------------------
-        *    Title: flaticon
-        *    Author: riajulislam, Freepik
-        *    Date: 2022
-        *    Availability: https://flaticon.com/
-        --------------------------------------------------->
+            <!-----------------------PNG FILES--------------------------------------
+            *    Title: flaticon
+            *    Author: riajulislam, Freepik
+            *    Date: 2022
+            *    Availability: https://flaticon.com/
+            ----------------------------------------------------------------------->
             <div class="socials">
                 <a href="sms:+12093730105">
                     <img class="message" src="./img/icons/sms.png" alt="Text us!">
@@ -91,5 +61,4 @@
             <div class="copyright">Copyright &#169 Jade & Co <script>document.write(new Date().getFullYear())</script></div>
         </div>
     </body>
-    
 </html>
