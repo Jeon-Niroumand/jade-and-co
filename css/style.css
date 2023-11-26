@@ -18,6 +18,7 @@ body{
 }
 
 #hamburger{
+    color: #0e2b1f;
     display: block; top: 10px;
     width: 75px;
     height: 75px;
@@ -29,6 +30,9 @@ body{
     z-index: 100;
 }
 
+#hamburger a:hoover{
+    color: #78b657;
+}
 #done{
     display: block; top: 10px;
     display: none;
@@ -179,6 +183,12 @@ h1, h2{
 .copyright{
     font-size: 21pt;
     text-align: center;
+}
+
+.legal{
+    display: flex;
+    font-size: 10pt;
+    justify-content: space-evenly;
 }
 
 @font-face{
