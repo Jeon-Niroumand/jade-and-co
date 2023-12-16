@@ -8,12 +8,13 @@ body{
 }
 
 .header {
+    margin-top: 7px;
     display: flex;    
     justify-content: space-between;
 }
 
 .logo{
-    width: 600px;
+    width: 300px;
     margin: auto;
 }
 
@@ -33,6 +34,7 @@ body{
 #hamburger a:hoover{
     color: #78b657;
 }
+
 #done{
     display: block; top: 10px;
     display: none;
@@ -107,7 +109,7 @@ a{
 
 .services, h1, #artists{
     color: #0e2b1f;
-    font-size: 90pt;
+    font-size: 46pt;
     font-weight: 500;
     align-self: center;
 }
@@ -116,6 +118,7 @@ a{
     font-family: 'poppins';
     font-size: 40pt;
     align-self: center;
+    margin-left: 100px;
 }
 
 .headshots {
@@ -171,17 +174,13 @@ iframe{
     padding-bottom: 20px;
 }
 
-h1{
-    height: 400px;
-}
-
 h1, h2{
     margin-block: 0;
     margin: auto;
 }
 
 .copyright{
-    font-size: 21pt;
+    font-size: 16pt;
     text-align: center;
 }
 
