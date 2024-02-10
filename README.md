@@ -1,4 +1,8 @@
 # jade-and-co
+
+
+# [jadeandcohairsalon.com](https://www.jadeandcohairsalon.com)
+# [Jade & Co Shop](https://shop.jadeandcohairsalon.com)
 My sister's hair salon <br>
 <br><h1>You think I can do better than her WIX site? You betcha!</h1><br>
 My best attempt at a pixel perfect reproduction of her home page with some enhancements.
