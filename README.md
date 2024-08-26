@@ -1,6 +1,3 @@
-# jade-and-co
-
-
 # [jadeandcohairsalon.com](https://www.jadeandcohairsalon.com)
 # [Jade & Co Shop](https://shop.jadeandcohairsalon.com)
 My sister's hair salon <br>
