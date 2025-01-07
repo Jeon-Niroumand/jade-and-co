@@ -2,42 +2,43 @@
 <html lang = en>
     
     <head>
-        <title>TEMPLATE | Jade & Co</title>
+        <title>HOME | Jade & Co</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=.4">
-        <meta name="description" content="jadeandco template description">
+        <meta name="description" content="Hair. Stockton's best stylists. Jade and Co is Stockton's top salon. Book an appointment and visit us today. Color, balayage, haircuts, blow outs, hair extensions, brows, bridal makeup, bridal hair">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="icon" href="./img/Jade_co_type_green.svg">
         <script src="menu.js" defer></script>
-
-        <!-- Google tag (gtag.js) --> 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11420511454"></script> 
-        <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11420511454'); </script>
     </head>
     
     <body>
         <div class="header">
-            <h1 class="logo"><img src="./img/Jade_co_type_green.svg" alt="Jade & Co"></h1>
+            <h1><img class="logo" src="./img/Jade_co_type_green.svg" alt="jade and co"></h1>
             <input type="image" id="hamburger" src="./img/more.png" alt="more" onclick="toggle()"> <!-- toggles navbar in menu.js-->
             <input type="image" id="done" src="./img/close.png" alt="close" onclick="toggle()"> <!-- closes navbar in menu.js-->
-            <nav>
-                <ul id="menu">
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./services.html">SERVICES</a></li>
-                    <li><a href="./artists.html">ARTISTS</a></li>
-                    <li><a href="./contact.html">CONTACT</a></li>
-                    <!--<li><a href="./about.html">ABOUT</a></li>-->
-                </ul>
-            </nav>
+            <ul id="menu">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./store.html">SHOP</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./services.html">SERVICES</a></li>
+                <li><a href="./artists.html">ARTISTS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
         </div>
-    
+
+        <div class="hero">
+            <img class="imgL" src="./img/salon/IMG_0242.webp" alt="Jade Salon looking clean with fresh chairs">
+            <img class="imgR" src="./img/salon/IMG_0241.webp" alt="Jade Salon with bright styling stations">
+            <img class="imgL" src="./img/salon/IMG_0240.webp" alt="Jade Salon chairs with indorr flora overhead">
+            <img class="imgR" src="./img/salon/IMG_0239.webp" alt="Peekaboo of a styling station with flora nearby">
+        </div>
+
         <div class="footer">
-            <!-----------------------PNG FILES--------------------------------------
-            *    Title: flaticon
-            *    Author: riajulislam, Freepik
-            *    Date: 2022
-            *    Availability: https://flaticon.com/
-            ----------------------------------------------------------------------->
+        <!-----------------------PNG FILES------------------
+        *    Title: flaticon
+        *    Author: riajulislam, Freepik
+        *    Date: 2022
+        *    Availability: https://flaticon.com/
+        --------------------------------------------------->
             <div class="socials">
                 <a href="sms:+12093730105">
                     <img class="message" src="./img/icons/sms.png" alt="Text us!">
@@ -61,4 +62,5 @@
             <div class="copyright">Copyright &#169 Jade & Co <script>document.write(new Date().getFullYear())</script></div>
         </div>
     </body>
+    
 </html>
